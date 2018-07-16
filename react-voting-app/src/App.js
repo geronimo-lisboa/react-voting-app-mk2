@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Bootstrap, Grid, Row, Col} from 'react-bootstrap';
+import {Bootstrap, Grid, Row, Col, Panel, Label, Button} from 'react-bootstrap';
 import './App.css';
 
 class AppTitle extends Component{
@@ -17,24 +17,32 @@ class AOption extends Component {
         console.log(this.props);
         return(
             <Row>
-                <Grid>
-                    <Row>
-                        <Col md={10}>
-                            {this.props.name}
-                        </Col>
-                        <Col md={1}>
-                            {this.props.votes}
-                        </Col>
-                        <Col md={1}>
-                            VOTEBTN
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={12}>
-                            {this.props.description}
-                        </Col>
-                    </Row>
-                </Grid>
+            <Col md={12}>
+                <Panel bsStyle="info">
+                    <Panel.Heading>
+                        <Panel.Title componentClass="h3">
+                        <Grid fluid={true}>
+                            <Row>
+                                <Col md={10}>
+                                    {this.props.name}
+                                </Col>
+                                <Col md={1}>
+                                    <Label bsStyle="info">
+                                        {this.props.votes}
+                                    </Label>
+                                </Col>
+                                <Col md={1}>
+                                    <Button>VOTE</Button>
+                                </Col>
+                            </Row>
+                        </Grid>
+                        </Panel.Title>
+                    </Panel.Heading>
+                    <Panel.Body>
+                        {this.props.description}
+                    </Panel.Body>
+                </Panel>
+            </Col>
             </Row>
         );
     }
@@ -54,12 +62,12 @@ class App extends Component {
     componentDidMount(){
         this.setState({options:[
                 {
-                    name:"Able",
+                    name:"Able Baker Charlie Delta Easy",
                     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis, purus vel congue pellentesque, nisl nulla interdum nisl, sit amet blandit eros odio in nulla. Integer id sollicitudin erat. Quisque pretium lacus sed ipsum ultrices, a fringilla eros congue. Phasellus sollicitudin non neque sit amet blandit. Vivamus mauris risus, pellentesque sit amet laoreet vestibulum, efficitur ac metus. Nunc et dictum sapien. Mauris sit amet pellentesque purus, id cursus arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; ",
                     votes:10
                 },
                 {
-                    name:"Baker",
+                    name:"Hotel India Kilo Mike XRay",
                     description:"Ut magna elit, maximus ultricies rutrum ac, posuere non mi. Phasellus ut auctor mauris. Pellentesque ultricies faucibus urna varius ornare. Nam imperdiet libero eget ex egestas maximus. Donec lacinia, eros laoreet cursus blandit, purus erat facilisis velit, fringilla viverra orci arcu at odio. Aenean ut elit eros. In non lectus nunc. Sed tempus tincidunt arcu vitae suscipit. ",
                     votes:5
                 }
@@ -73,7 +81,7 @@ class App extends Component {
             return <AOption name={option.name} description={option.description} votes={option.votes} key={i}/>
         });
         return(
-        <Grid fluid={true} className={"Container"}>
+        <Grid className={"Container"}>
             {options}
         </Grid>
         )
