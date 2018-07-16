@@ -3,11 +3,4 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/react-voting-app-backend/pom.xml" />
-      </list>
-    </option>
-  </component>
 </project>
