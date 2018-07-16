@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6909712-e433-48eb-8300-41101136fc22" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-voting-app-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/react-voting-app-backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/react-voting-app-backend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,55 +15,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="OptionService.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="765">
-                    <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#309#310#0" expanded="true" />
-                      <element signature="e#364#365#0" expanded="true" />
-                      <element signature="e#546#547#0" expanded="true" />
-                      <element signature="e#594#595#0" expanded="true" />
-                      <element signature="e#642#643#0" expanded="true" />
-                      <element signature="e#687#688#0" expanded="true" />
-                      <element signature="e#990#991#0" expanded="true" />
-                      <element signature="e#1035#1036#0" expanded="true" />
-                      <element signature="e#1096#1097#0" expanded="true" />
-                      <element signature="e#1113#1114#0" expanded="true" />
-                      <element signature="e#1175#1176#0" expanded="true" />
-                      <element signature="e#1213#1214#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OptionsRestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +28,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -131,94 +91,6 @@
             <path>
               <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvotingapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvotingapp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvotingapp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvotingapp" type="462c0819:PsiDirectoryNode" />
-              <item name="persistance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvotingapp" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="react-voting-app-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,12 +207,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531744075494</updated>
       <workItem from="1531744077070" duration="7626000" />
-      <workItem from="1531779496722" duration="4984000" />
+      <workItem from="1531779496722" duration="5771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12610000" />
+    <option name="totallyTimeSpent" value="13397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -359,27 +231,27 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968536" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24213406" />
-      <window_info id="npm" order="2" sideWeight="0.2734694" side_tool="true" visible="true" weight="0.30859375" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info id="npm" order="2" sideWeight="0.27222982" side_tool="true" visible="true" weight="0.30859375" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968536" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7265306" visible="true" weight="0.30859375" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72777015" visible="true" weight="0.30859375" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,28 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/persistance/OptionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -521,10 +371,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="120">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
           </folding>
         </state>
       </provider>
