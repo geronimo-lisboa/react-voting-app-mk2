@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
+import {Bootstrap, Grid, Row, Col} from 'react-bootstrap';
 import './App.css';
 
 class AppTitle extends Component{
@@ -16,10 +16,17 @@ class AOption extends Component {
     render(){
         console.log(this.props);
         return(
-            <div>
-                <span>{this.props.name}</span>
-                <span>{this.props.votes}</span>
-            </div>
+            <Row>
+                <Col md={8}>
+                    {this.props.name}
+                </Col>
+                <Col md={3}>
+                    {this.props.votes}
+                </Col>
+                <Col md={1}>
+                    btnUp
+                </Col>
+            </Row>
         );
     }
 }
@@ -47,21 +54,19 @@ class App extends Component {
                 }
             ]});
     }
-    ///Renderiza o componente principal da aplicação
     render() {
         //Ordena a lista por opções
         const sortedOptions = this.state.options.sort( (a,b)=>(b.votes - a.votes) );
         //Mapeia os dados para componentes de tela
-        const options = sortedOptions.map( (option)=>{
-            return <AOption name={option.name} votes={option.votes}/>
+        const options = sortedOptions.map( (option, i)=>{
+            return <AOption name={option.name} votes={option.votes} key={i}/>
         });
-        return (
-        <div>
-            <AppTitle/>
+        return(
+        <Grid fluid={true}>
             {options}
-        </div>
-    );
-  }
+        </Grid>
+        )
+    };
 }
 
 export default App;
