@@ -19,6 +19,7 @@ public class OptionsRestController {
     public OptionsRestController(OptionService optionService){
         this.optionService = optionService;
     }
+    @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<Option> getAllOptions(){

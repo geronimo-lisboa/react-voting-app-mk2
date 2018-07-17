@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" line="50" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" line="51" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6909712-e433-48eb-8300-41101136fc22" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/react-voting-app-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/react-voting-app-backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/react-voting-app-backend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +21,22 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#AOption#0" />
+                <element signature="n#!!block;n#constructor#0;n#App#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,13 +59,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/model/Option.java" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/persistance/OptionRepository.java" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/ReactVotingAppBackendApplication.java" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/services/OptionService.java" />
         <option value="$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/controller/OptionsRestController.java" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -91,6 +107,11 @@
             <path>
               <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-voting-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-voting-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531744075494</updated>
       <workItem from="1531744077070" duration="7626000" />
-      <workItem from="1531779496722" duration="5771000" />
+      <workItem from="1531779496722" duration="7970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13397000" />
+    <option name="totallyTimeSpent" value="15596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -236,10 +257,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24213406" />
-      <window_info id="npm" order="2" sideWeight="0.27222982" side_tool="true" visible="true" weight="0.30859375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24213406" />
+      <window_info id="npm" order="2" sideWeight="0.2725632" side_tool="true" visible="true" weight="0.30859375" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968536" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72777015" visible="true" weight="0.30859375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72743684" visible="true" weight="0.30859375" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" side_tool="true" />
@@ -341,17 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="80" selection-start-line="79" selection-end-line="80" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#!!block;n#constructor#0;n#App#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-voting-app-backend/src/main/java/don/geronimo/reactvotingapp/persistance/OptionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -397,6 +407,18 @@
             <element signature="e#1113#1114#0" expanded="true" />
             <element signature="e#1175#1176#0" expanded="true" />
             <element signature="e#1213#1214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#AOption#0" />
+            <element signature="n#!!block;n#constructor#0;n#App#0" />
           </folding>
         </state>
       </provider>
