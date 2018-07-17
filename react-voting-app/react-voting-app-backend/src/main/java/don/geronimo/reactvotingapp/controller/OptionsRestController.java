@@ -19,6 +19,7 @@ public class OptionsRestController {
     public OptionsRestController(OptionService optionService){
         this.optionService = optionService;
     }
+
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
@@ -38,12 +39,14 @@ public class OptionsRestController {
         return ResponseEntity.created(location).build();
     }
 
+    @CrossOrigin(origins = "http://localhost:3000")
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Option updateOption(@PathVariable String id, @RequestBody Option updatedOption){
         Option option = optionService.findById(id);
         if(option == null){
             //TODO: eu sei que não pode simplesmente estourar exceção aqui. Como retornar esse erro direito?
+            throw new RuntimeException("nao sei");
         }
         updatedOption.setId(option.getId());
         return optionService.updateOption(updatedOption);
