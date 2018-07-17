@@ -18,7 +18,7 @@ class ServerInterface{
                 'Content-Type':'application/json'
             },
             body: JSON.stringify(option),
-        });
+        }).then(response=>response.json());
     }
 
     //Faz o fetch de todas as opções de voto. O fetch, a essa altura, já está com json, é só passar o callback que usa
@@ -111,7 +111,16 @@ class App extends Component {
     onVoteButtonClick(optionId){
         const chosen = optionServices.getOptionById(this.state.options, optionId);
         const increasedVote = Object.assign({}, chosen, {votes:chosen.votes+1});
-        serverInterface.updateVote(increasedVote);
+        serverInterface.updateVote(increasedVote)
+            .then(updatedData=> {
+                const newState = this.state.options.map((currOption)=>{
+                    if(currOption.id == updatedData.id)
+                        return updatedData;
+                    else
+                        return currOption;
+                });
+                this.setState({options: newState})
+            });
     }
 
     render() {
